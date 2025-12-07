@@ -13,8 +13,10 @@ const port =  process.env.PORT;
 const host = process.env.HOST
 app.use(cors(
   {
-  origin: ["https://inotebook-cloud-drive.vercel.app/"],
-  credentials: true}
+  origin: ["https://inotebook-cloud-drive.vercel.app"],
+  methods: ["GET", "POST", "PUT", "DELETE"],
+  credentials: true
+}
 ));
 app.use(express.json());
 
