@@ -13,7 +13,7 @@ const port =  process.env.PORT;
 const host = process.env.HOST
 app.use(cors(
   {
-  origin: ["http://localhost:3000"],
+  origin: ["https://inotebook-cloud-drive.vercel.app/"],
   credentials: true}
 ));
 app.use(express.json());
