@@ -11,7 +11,11 @@ connectToMongo();
 const app = express();
 const port =  process.env.PORT;
 const host = process.env.HOST
-app.use(cors());
+app.use(cors(
+  {
+  origin: ["http://localhost:3000"],
+  credentials: true}
+));
 app.use(express.json());
 
 app.use("/api/auth", require("./routes/auth"));
