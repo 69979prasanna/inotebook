@@ -1,70 +1,130 @@
-# Getting Started with Create React App
+☁️ iNotebook Cloud Drive
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+iNotebook Cloud Drive is a secure cloud-based storage and notes platform that allows users to upload, manage, and access their files and notes from anywhere.
+The application focuses on authentication, data security, and scalability, making it suitable as a full-stack portfolio project.
 
-## Available Scripts
+🚀 Features
 
-In the project directory, you can run:
+🔐 User Authentication & Authorization
 
-### `npm start`
+Secure login & signup using JWT
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Protected routes for authenticated users
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+☁️ Cloud File Storage
 
-### `npm test`
+Upload and store files securely
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+Access files anytime from the dashboard
 
-### `npm run build`
+📝 Notes Management
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Create, edit, and delete personal notes
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Notes linked securely to individual user accounts
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+🗂️ User-Specific Data Isolation
 
-### `npm run eject`
+Each user can only access their own files & notes
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+🛡️ Security First
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Encrypted passwords
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Token-based authentication
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+Secure API endpoints
 
-## Learn More
+🛠️ Tech Stack
+Frontend
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+React
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Bootstrap / CSS
 
-### Code Splitting
+Axios / Fetch API
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Backend
 
-### Analyzing the Bundle Size
+Node.js
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Express.js
 
-### Making a Progressive Web App
+Database
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+MongoDB
 
-### Advanced Configuration
+Mongoose
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+Authentication & Security
 
-### Deployment
+JSON Web Tokens (JWT)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+bcrypt.js
 
-### `npm run build` fails to minify
+Middleware-based route protection
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+📦 Installation & Setup
+1️⃣ Clone the repository
+git clone https://github.com/your-username/inotebook-cloud-drive.git
+cd inotebook-cloud-drive
+
+2️⃣ Backend setup:
+
+cd backend
+
+npm install
+
+Run backend server:
+
+npm start
+
+3️⃣ Frontend setup
+cd frontend
+npm install
+npm start
+
+🔐 Authentication Flow:
+
+User registers or logs in
+
+Server generates JWT token
+
+Token stored securely on client
+
+Protected routes validate token using middleware
+
+Authorized access granted to files & notes
+
+🧠 Key Learnings
+
+Full-stack development with MERN
+
+Secure authentication using JWT
+
+Middleware-based authorization
+
+API design & route protection
+
+Handling cloud storage logic
+
+Real-world error handling & validation
+
+🌱 Future Enhancements
+
+Folder-based file organization
+
+File size & storage limits per user
+
+Subscription-based storage plans
+
+Forgot password / email verification
+
+File sharing with access control
+
+Cloud provider integration (AWS / Supabase / Firebase)
+
+🤝 Contributing
+
+Contributions are welcome!
+Fork the repository and submit a pull request to improve features or security.
