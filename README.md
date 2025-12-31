@@ -66,7 +66,7 @@ Middleware-based route protection
 
 📦 Installation & Setup
 1️⃣ Clone the repository
-git clone https://github.com/your-username/inotebook-cloud-drive.git
+git clone https://github.com/69979prasanna//inotebook.git
 cd inotebook-cloud-drive
 
 2️⃣ Backend setup:
