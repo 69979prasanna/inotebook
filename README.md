@@ -128,3 +128,10 @@ Cloud provider integration (AWS / Supabase / Firebase)
 
 Contributions are welcome!
 Fork the repository and submit a pull request to improve features or security.
+<img width="1917" height="965" alt="Screenshot 2026-07-06 102423 - Copy" src="https://github.com/user-attachments/assets/04eae16f-09f4-4e4a-957c-d649f4562e42" />
+<img width="1917" height="967" alt="Screenshot 2026-07-06 102648 - Copy" src="https://github.com/user-attachments/assets/58021671-25fb-488d-9000-68e0b8c520c4" />
+<img width="1917" height="957" alt="Screenshot 2026-07-06 102656 - Copy" src="https://github.com/user-attachments/assets/73ab7e24-f6f6-42ed-8c21-45e4a04616bd" />
+<img width="1917" height="968" alt="Screenshot 2026-07-06 102706" src="https://github.com/user-attachments/assets/5840941a-e721-4bb2-9810-1101dd4c1e13" />
+
+
+
