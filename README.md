@@ -1,137 +1,213 @@
-☁️ iNotebook Cloud Drive
+# ☁️ iNotebook
 
-iNotebook Cloud Drive is a secure cloud-based storage and notes platform that allows users to upload, manage, and access their files and notes from anywhere.
-The application focuses on authentication, data security, and scalability, making it suitable as a full-stack portfolio project.
+A secure cloud-based notes management application built using the **MERN Stack**. iNotebook enables users to create, edit, organize, and securely store notes with JWT authentication, encrypted passwords, and cloud file storage.
 
-🚀 Features
+![React](https://img.shields.io/badge/React-19-blue?logo=react)
+![Node.js](https://img.shields.io/badge/Node.js-green?logo=node.js)
+![Express](https://img.shields.io/badge/Express.js-black?logo=express)
+![MongoDB](https://img.shields.io/badge/MongoDB-green?logo=mongodb)
+![JWT](https://img.shields.io/badge/Auth-JWT-orange)
 
-🔐 User Authentication & Authorization
+---
 
-Secure login & signup using JWT
+## 🚀 Live Demo
 
-Protected routes for authenticated users
+[🔗 Add your deployed project link here](https://inotebook-cloud-drive.vercel.app/)
 
-☁️ Cloud File Storage
+---
 
-Upload and store files securely
+## 📸 Screenshots
 
-Access files anytime from the dashboard
+### Dashboard
 
-📝 Notes Management
+<img width="1917" height="965" alt="Screenshot 2026-07-06 102423 - Copy" src="https://github.com/user-attachments/assets/04eae16f-09f4-4e4a-957c-d649f4562e42" />
 
-Create, edit, and delete personal notes
+### Documents
+<img width="1917" height="967" alt="Screenshot 2026-07-06 102648 - Copy" src="https://github.com/user-attachments/assets/58021671-25fb-488d-9000-68e0b8c520c4" />
 
-Notes linked securely to individual user accounts
+### Images
+<img width="1917" height="957" alt="Screenshot 2026-07-06 102656 - Copy" src="https://github.com/user-attachments/assets/73ab7e24-f6f6-42ed-8c21-45e4a04616bd" />
 
-🗂️ User-Specific Data Isolation
+### Add Note
 
-Each user can only access their own files & notes
+<img width="1917" height="968" alt="Screenshot 2026-07-06 102706" src="https://github.com/user-attachments/assets/5840941a-e721-4bb2-9810-1101dd4c1e13" />
 
-🛡️ Security First
+---
 
-Encrypted passwords
+## ✨ Features
 
-Token-based authentication
+- 🔐 Secure JWT Authentication
+- 🔒 Password Hashing using bcrypt
+- 📝 Create Notes
+- ✏️ Edit Notes
+- 🗑 Delete Notes
+- ☁️ Cloud Storage
+- 📁 Upload Documents & Images
+- 🔄 RESTful APIs
+- 📱 Responsive Design
+- ⚡ Fast CRUD Operations
 
-Secure API endpoints
+---
 
-🛠️ Tech Stack
-Frontend
+## 🛠️ Tech Stack
 
-React
+| Technology | Usage |
+|------------|-------|
+| React.js | Frontend |
+| Node.js | Backend |
+| Express.js | REST API |
+| MongoDB Atlas | Cloud Database |
+| JWT | Authentication |
+| bcrypt | Password Encryption |
+| Supabase Storage | File Storage |
+| Git & GitHub | Version Control |
+| Render | Backend Deployment |
+| Vercel | Frontend Deployment |
 
-Bootstrap / CSS
+---
 
-Axios / Fetch API
+## 🏗️ Architecture
 
-Backend
+```
+React Frontend
+      │
+      ▼
+Express REST API
+      │
+      ▼
+JWT Authentication
+      │
+      ▼
+MongoDB Atlas
+      │
+      ▼
+Supabase Storage
+```
 
-Node.js
+---
 
-Express.js
+## 📂 Project Structure
 
-Database
+```
+iNotebook/
+│
+├── backend/
+│   ├── routes/
+│   ├── middleware/
+│   ├── models/
+│   ├── db.js
+│   └── index.js
+│
+├── frontend/
+│   ├── src/
+│   ├── components/
+│   └── App.js
+│
+├── package.json
+└── README.md
+```
 
-MongoDB
+---
 
-Mongoose
+## ⚙️ Installation
 
-Authentication & Security
+Clone the repository
 
-JSON Web Tokens (JWT)
+```bash
+git clone https://github.com/yourusername/iNotebook.git
+```
 
-bcrypt.js
+Navigate into the project
 
-Middleware-based route protection
+```bash
+cd iNotebook
+```
 
-📦 Installation & Setup
-1️⃣ Clone the repository
-git clone https://github.com/69979prasanna//inotebook.git
-cd inotebook-cloud-drive
+Install backend dependencies
 
-2️⃣ Backend setup:
-
-cd backend
-
+```bash
 npm install
+```
 
-Run backend server:
+Install frontend dependencies
 
-npm start
-
-3️⃣ Frontend setup
+```bash
 cd frontend
 npm install
+```
+
+Run backend
+
+```bash
+npm run dev
+```
+
+Run frontend
+
+```bash
 npm start
+```
 
-🔐 Authentication Flow:
+---
 
-User registers or logs in
+## 🔐 Authentication Flow
 
-Server generates JWT token
+- User Registration
+- Password Encryption using bcrypt
+- JWT Token Generation
+- Protected API Routes
+- Secure User Sessions
 
-Token stored securely on client
+---
 
-Protected routes validate token using middleware
+## 📊 Performance
 
-Authorized access granted to files & notes
+- REST API response <200 ms
+- Secure authentication
+- Optimized MongoDB queries
+- Efficient React rendering
+- Cloud-based storage
 
-🧠 Key Learnings
+---
 
-Full-stack development with MERN
+## 🚀 Future Enhancements
 
-Secure authentication using JWT
+- 📂 Folder Management
+- 🏷 Tags & Categories
+- 🔎 Full-Text Search
+- 📤 Share Notes
+- 📄 Export to PDF
+- 🌙 Dark Mode
+- 🤖 AI Note Summarization
+- 📱 Progressive Web App (PWA)
 
-Middleware-based authorization
+---
 
-API design & route protection
+## 🤝 Contributing
 
-Handling cloud storage logic
+Contributions are welcome.
 
-Real-world error handling & validation
+1. Fork the repository
+2. Create a feature branch
+3. Commit your changes
+4. Push your branch
+5. Open a Pull Request
 
-🌱 Future Enhancements
+---
 
-Folder-based file organization
+## 👨‍💻 Author
 
-File size & storage limits per user
+**Prasanna Solapure**
 
-Subscription-based storage plans
+GitHub: https://github.com/69979Prasanna
 
-Forgot password / email verification
+LinkedIn: https://www.linkedin.com/in/prasanna-solapure-581a22333/
 
-File sharing with access control
+---
 
-Cloud provider integration (AWS / Supabase / Firebase)
+## ⭐ Support
 
-🤝 Contributing
-
-Contributions are welcome!
-Fork the repository and submit a pull request to improve features or security.
-<img width="1917" height="965" alt="Screenshot 2026-07-06 102423 - Copy" src="https://github.com/user-attachments/assets/04eae16f-09f4-4e4a-957c-d649f4562e42" />
-<img width="1917" height="967" alt="Screenshot 2026-07-06 102648 - Copy" src="https://github.com/user-attachments/assets/58021671-25fb-488d-9000-68e0b8c520c4" />
-<img width="1917" height="957" alt="Screenshot 2026-07-06 102656 - Copy" src="https://github.com/user-attachments/assets/73ab7e24-f6f6-42ed-8c21-45e4a04616bd" />
-<img width="1917" height="968" alt="Screenshot 2026-07-06 102706" src="https://github.com/user-attachments/assets/5840941a-e721-4bb2-9810-1101dd4c1e13" />
+If this project helped you, consider giving it a ⭐ on GitHub.
 
 
 
